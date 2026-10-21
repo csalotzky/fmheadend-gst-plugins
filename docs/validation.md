@@ -28,8 +28,9 @@ smoke pipelines, latency checks, and offline signal analysis.
 
 Those measurements predate the later removal of `safety-margin-db`, the direct
 `threshold-dbfs` semantics, and the addition of `hf-correction-us`. Historical
-benchmark and analysis files in this repository must not be interpreted as
-measurements of the current HEAD.
+benchmark and analysis files were intentionally removed from this repository,
+and the recorded measurements must not be interpreted as validation of the
+current HEAD.
 
 ## Not yet verified for current HEAD
 

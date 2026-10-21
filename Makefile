@@ -51,7 +51,7 @@ limiter-test: $(LIMITER_TEST_BIN)
 clipper-test: $(CLIPPER_TEST_BIN)
 	./$(CLIPPER_TEST_BIN)
 
-# Runs both standalone (GStreamer-independent) DSP test executables.
+# Runs all three standalone (GStreamer-independent) DSP test executables.
 test: limiter-test clipper-test extension-test
 
 $(BUILD_DIR)/test_extensions: tests/test_extensions.cpp src/fm_limiter_core.hpp src/fm_clipper_core.hpp src/fm_preemphasis.hpp src/fm_true_peak.hpp | $(BUILD_DIR)

@@ -15,7 +15,7 @@
 #endif
 
 #ifndef GST_PACKAGE_ORIGIN
-#define GST_PACKAGE_ORIGIN "FMheadend project"
+#define GST_PACKAGE_ORIGIN "https://github.com/csalotzky/fmheadend-gst-plugins"
 #endif
 
 #define GST_TYPE_FMHEADEND_CLIPPER (gst_fmheadend_clipper_get_type())

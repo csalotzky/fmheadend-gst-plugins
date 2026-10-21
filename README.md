@@ -51,9 +51,11 @@ sudo apt install -y \
 
 ## Build and test
 
-From the repository root:
+Clone the repository and enter its root directory:
 
 ```bash
+git clone https://github.com/csalotzky/fmheadend-gst-plugins.git
+cd fmheadend-gst-plugins
 make -j"$(nproc)" plugin
 make test
 ```
@@ -173,5 +175,3 @@ See [DSP reference](docs/dsp.md) for processing details and limitations, and
 ## License
 
 The source is distributed under the MIT License; see [LICENSE](LICENSE).
-The copyright-holder field still requires project-owner confirmation before
-public release.
